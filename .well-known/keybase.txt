@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/ohazi
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://orenhazi.com
+  * I am ohazi (https://keybase.io/ohazi) on keybase.
+  * I have a public key ASDJeE0yx3uuA7_5vdDOb3lqwFsXY_enll9hc0clvpf4_Ao
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120c9784d32c77bae03bff9bdd0ce6f796ac05b1763f7a7965f61734725be97f8fc0a",
+      "host": "keybase.io",
+      "kid": "0120c9784d32c77bae03bff9bdd0ce6f796ac05b1763f7a7965f61734725be97f8fc0a",
+      "uid": "e2a4c2cdda34b6f40ff432dc48f5ee19",
+      "username": "ohazi"
+    },
+    "merkle_root": {
+      "ctime": 1591578881,
+      "hash": "bfbcef87d71e73bc6f8bb522f92e7280a85320b7553af96828471fdaf741e9350b792497a2bf810906ecebaee4a2753700f426e782588f116115eee6912ca135",
+      "hash_meta": "a1ae98b01f63d7b9e697957e3a863165c468551e5ab4e85f0eaa40cdaa5518d1",
+      "seqno": 16581306
+    },
+    "service": {
+      "entropy": "Ml9yUBaKMMa31+GQxk3qXf9d",
+      "hostname": "orenhazi.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.4.2"
+  },
+  "ctime": 1591578893,
+  "expire_in": 504576000,
+  "prev": "0793a754b289cd7b5d3c5ee117338606a1015ace474de8f586e621571d52f5b6",
+  "seqno": 36,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgyXhNMsd7rgO/+b3Qzm95asBbF2P3p5ZfYXNHJb6X+PwKp3BheWxvYWTESpcCJMQgB5OnVLKJzXtdPF7hFzOGBqEBWs5HTej1huYhVx1S9bbEIHD1i5a8IMPWm20apP6b4HhGl9PGuY2z+E3Gw1IKndNoAgHCo3NpZ8RAIa6enZWPmo2N9BT/bRioPGvPKpbip8oHkn1YQ6gc0TwrqF4b6QFFNmBd4EpUk+O0fyUqwjymLRQOHifNaYMeDKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEICZ2RzpGOhdrwTY+dKi6JXKxdw/9XXOYXlwywPg1syx6o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ohazi
+
+==================================================================
