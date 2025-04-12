@@ -1,0 +1,214 @@
+Oren Hazi
+
+2203 Augusta Pl.
+Santa Clara, CA 95051
+
+oren.hazi@gmail.com
+(310) 365-1176
+
+A formatted version of this document is available here:
+https://orenhazi.com/resume/oren_hazi_resume.pdf
+
+
+
+
+Education
+
+Stanford University
+Stanford, CA
+M.S., Electrical Engineering, 2012
+
+California Institute of Technology
+Pasadena, CA
+B.S., Electrical Engineering, 2010
+
+
+
+
+Objective and Interests
+
+Seeking a challenging technical leadership position where my skills and expertise can add significant value to a growing company. I have a strong analytical background, learn quickly, and am deeply passionate about my work. My interests include digital signal processing, image and video algorithms and compression, remote sensing (Radar, LIDAR, cameras, etc.), computer vision, embedded system design, instrumentation systems, computer architecture, and systems software. 
+
+
+
+
+Practical Skills
+
+* C, C++, Rust, Python, Java, Bash shell, Awk, various assembly languages (x86, ARM, AVR, OpenRISC, RISC-V), Verilog, VHDL, Amaranth HDL
+* Firmware development for bare-metal environments and lightweight real-time operating systems (FreeRTOS, Zephyr)
+* Experience with embedded platforms from STMicroelectronics, NXP, Atmel / Microchip, Nordic, Espressif, Cypress / Infineon, Maxim / Analog Devices, Lattice, Xilinx / AMD, Silicon Labs
+* Schematic capture, PCB design, and circuit simulation: KiCad, Altium Designer, ngspice
+* Basic mechanical design: FreeCAD, SolveSpace
+* Highly proficient at using Linux environments for development; comfortable working in macOS, and Windows
+* Fluent English, some Hebrew, excellent verbal and written communication skills
+
+
+
+
+Work Experience
+
+Neurosteer
+Santa Clara, CA
+https://www.neurosteer.com/
+Director of Engineering
+January 2019 - Present
+
+Led a major redesign of the analog front-end on Neurosteer's EEG product, addressing signal distortion issues and dramatically improving the device's dynamic range. Developed the hardware and firmware for Neurosteer's wireless control board, focusing on link reliability, component availability, manufacturability, and EMC. Worked with colleagues to identify and either fix or work around several connectivity bugs on Linux, Windows, and Android caused by incomplete or non-conforming BLE client implementations. Submitted these fixes to upstream open-source projects when possible. 
+
+Designed several firmware flashing boards and test fixtures, wrote firmware and software to facilitate device provisioning and inventory management. Designed a streaming API to provide raw and processed signal data to web clients in near real-time using server-sent events. 
+
+Managed software development for Lyra, a graph-based streaming platform for running near real-time signal processing workloads in the cloud. Lyra allows developers to write algorithm components in multiple languages and then stitch them together into pipelines by specifying how the inputs and outputs of these components should be connected. The platform handles pipeline scheduling, component execution, buffering between component inputs and outputs, and persistence of stream data to a database. Lyra is written in Rust, and algorithm components can be written in Rust, C, or Python. 
+
+Spent over a year writing and reviewing documentation for Neurosteer's first 509(k) submission to the FDA. This was a company-wide effort that involved developing design controls, risk and quality management systems, test procedures, etc., in addition to writing technical and user-facing documentation for the EEG. 
+
+
+Magic Leap
+Sunnyvale, CA
+https://www.magicleap.com/
+Senior Systems Engineer, Performance and Data Group
+September 2015 - September 2017
+
+Software development lead for Magic Leap's display algorithm architectural simulator. Worked with a team of five to create cycle-accurate models of the algorithm pipeline on two Magic Leap ASICs. Modeled algorithms for arbitrary distortion correction, color and depth blending, and compensation for rapid head motion. Also developed models for a tiled pixel access unit and a framebuffer cache. Simulator was used extensively to debug and verify individual components before chip tape-out. 
+
+Developed a wireless system for synchronizing clocks in a room-scale motion capture system and on prototype hardware units. Motion capture data and headset pose estimates need to be well-aligned temporally for a dataset to be useful. The clock synchronizer replaced a time-consuming manual alignment process and enabled the team to meet a number of ambitious data collection goals in early 2017. Also developed a set of quality metrics and analysis tools for verifying the precision and accuracy of the time alignment. 
+
+Worked on a robotic system for “reanimating” a prototype wearable unit using previously captured motion data. Test content is rendered on the wearable display, while eye-proxy cameras capture the view that a user would see while wearing the device. The captured video is analyzed to characterize alignment between rendered content and real world objects. This allowed us to measure total system latency, as well as evaluate the performance of pose estimation algorithms. 
+
+
+Clover
+Mountain View, CA
+https://www.clover.com/
+Systems Software Engineer
+December 2013 - September 2015
+
+Early member of systems engineering team tasked with developing hardware and firmware for a new family of Android-based point-of-sale terminals (Clover Mini and Clover Mobile). Designed and maintained the communication system linking the application processor and secure microcontroller. Responsible for a large portion of the cryptographic system (key generation and storage, DUKPT and Transarmor algorithm implementations, certificate chain creation and validation). 
+
+Spent several months fine-tuning analog performance of the NFC radio system with engineers from FIME and NXP in order to pass EMV contactless certification. Also developed fuzz testing tools for the terminal's external USB interfaces to assist with security audits for EMV certification. 
+
+Took over and maintained firmware for a Bluetooth receipt printer that was developed by a contract design partner. Worked with manufacturing partner to debug and deploy a system for updating printer firmware on several devices at a time via Bluetooth. 
+
+
+Ambarella
+Santa Clara, CA
+https://www.ambarella.com/
+Member of Technical Staff, Architecture Group
+January 2012 - December 2013
+
+Designed and maintained the full-chip testing framework for IDSP (image processing unit on Ambarella chips). Framework allows users to quickly generate a pipeline of chained IDSP filters by describing their connectivity rather than manually programming individual DMA channels and fine-tuning intermediate buffer sizes. Framework is used extensively in platform use-case tests, which verify that new image algorithms run correctly and within timing constraints of new IDSP architectures. 
+
+Also designed and maintained the HEVC/H.265 architecture model components for AQP (activity / quantization parameter) and Inter Candidate Prediction blocks within VDSP (video encode/decode unit on Ambarella chips). Architecture model is used for verification of intermediate operations before the final video output can be compared to the reference output. 
+
+
+Empower RF Systems
+Inglewood, CA
+https://www.empowerrf.com/
+Consultant
+Summer 2011
+
+Designed an Atmel XMEGA AVR based control system for use in an RF amplifier module. The system measures critical parameters (supply voltages, drain current, temperature, etc.) and adjusts bias and input attenuation to protect the RF components from transient conditions. It also provides "black box" functionality by maintaining measurement and control logs in non-volatile memory to assist in failure analysis, and is fully configurable via an external serial interface. Supervised by Paulo Correa. 
+
+
+Jet Propulsion Laboratory
+Pasadena, CA
+https://uavsar.jpl.nasa.gov/
+Technologist I, Radar Technology Group
+Summer 2010
+
+Developed an FPGA system to determine the usable throughput of a 2.5 Gbps (nominal) optical link between a testbed phased array radar and an off-the-shelf data recorder. The design transmits simulated receiver data over an optical fiber using the serial front panel data port (sFPDP) protocol. A commercial IP core was used to implement the sFPDP data link (the same core used in the actual radar), and the design includes benchmark logic to characterize the link. Supervised by Dr. Gregory Sadowy. 
+
+
+California Institute of Technology
+Pasadena, CA
+Teaching Assistant, Prof. Barry Megdal
+Winter - Spring 2010
+
+Worked as a lab assistant for junior and senior level analog electronics design project courses. The junior level course (EE 90) required students to work individually to design and build an ultrasonic rangefinder. The senior level course (EE 91) allowed students to design and build a project of their choice. Helped students bridge the gap between their theoretical knowledge of analog circuits and the practical considerations needed to make them work (real-world operational amplifiers, transistor biasing, power supplies, temperature variation, non-linear effects, etc). 
+
+
+Empower RF Systems
+Inglewood, CA
+http://www.empowerrf.com/
+Engineering Intern
+Summer 2009
+
+Assisted in the development and testing of a 3.5 GHz 50 Watt linear power amplifier. The amplifier uses a Doherty final stage to simultaneously meet the linearity and efficiency requirements of the system. I also set up and operated the company's LPKF automated PCB router for rapid prototyping. Supervised by Paulo Correa and Bill Vassilakis. 
+
+
+Jet Propulsion Laboratory
+Pasadena, CA
+http://thz.caltech.edu/
+Summer Research Fellow, Submillimeter Wave Advanced Technology (SWAT) Team
+Summer 2008
+
+Designed and implemented a set of digital filters and peak-finding algorithms in Matlab for a high-resolution imaging radar. The radar is designed to image through clothing for concealed weapons detection. My filters reduce radar clutter and highlight features that appear to be weapons. I also designed a digital control board for the radar's Miteq 33-35 GHz synthesizers. Supervised by Dr. Ken Cooper and Dr. Peter Siegel. 
+
+
+
+
+Projects
+
+MazeWorld
+https://www.youtube.com/watch?v=xS0cTgBlB-w
+CS 248 - Interactive Computer Graphics (Prof. Vladlen Koltun)
+Winter 2012, Stanford
+
+Wrote a 3D game in C++ using OpenGL. Player controls a marble with arrow keys and spacebar (forward / backward / left / right / jump), and must navigate through a maze environment as quickly as possible. Designed a simple rigid-body dynamics engine to simulate realistic rolling, bouncing, and angular effects on surfaces with different coefficients of friction and restitution. 
+
+
+Stereo Image Compression Competition
+https://orenhazi.com/resume/papers/stereo.pdf
+EE 398a - Image and Video Compression (Prof. Bernd Girod)
+Winter 2012, Stanford
+
+Designed a lossy compression algorithm to efficiently store "3D" stereo image pairs. Video-inspired algorithm uses "disparity vectors" (with quarter-pixel resolution) to estimate differences between corresponding regions within an image pair. Original and residual pixels are encoded using a wavelet compression algorithm, and disparity vectors are compressed with a Golomb coder. Competition required compressing seven unknown image pairs in under 14 minutes, with a minimum PSNR of 37 dB. Design won first place out of four teams. 
+
+
+Final Approach
+https://orenhazi.com/resume/papers/final_approach.pdf
+CS 229 - Machine Learning (Prof. Andrew Ng)
+Fall 2011, Stanford
+
+Wrote an automated landing system for a Cessna 172 Skyhawk as a plugin for the X-Plane flight simulator. System uses an apprenticeship learning model to discover the dynamics of the aircraft during two separate phases of flight (final approach to runway, and flare before touchdown). A simple planning algorithm is then used to guide the aircraft through these phases using the learned aircraft dynamics. 
+
+
+Mobile Wine Label Recognition
+https://orenhazi.com/resume/papers/wine_labels.pdf
+EE 368 - Digital Image Processing (Prof. Bernd Girod)
+Spring 2011, Stanford
+
+Built an Android application for wine label recognition on a mobile phone. Used the SURF feature detection algorithm and a modified version of the RANSAC method to match photographs of wine labels taken on a camera phone with an online wine label database. Modified RANSAC algorithm provides improved robustness against cylindrical distortions of the label due to the shape of the wine bottle. 
+
+
+Micropolygon Rasterization
+EE 271 - Introduction to VLSI Design (Prof. Mark Horowitz)
+Fall 2010, Stanford
+
+Modified the design and verification environment for a z-buffered micropolygon rasterizer (in Verilog) to meet throughput requirements for real-time rendering. Optimizations include back-faced polygon culling, pipeline bubble compression, state machine modifications, and parallelization of the design. The final design limits power consumption to 250 mW and silicon area to 0.2 mm^2 and has a maximum throughput of 0.52 polygon/ns (>100 Hz update rate for scenes with 5 million polygons). 
+
+
+AVR CPU Design
+EE 119b - Advanced Digital Systems Design (Glen George)
+Winter 2010, Caltech
+
+Created a cycle compatible design and verification environment for an AVR microprocessor core using VHDL. Design includes the ALU, register bank, instruction register and control unit, and the program and data memory access units. Simulated design with a small test program and synthesized for a Xilinx Spartan II FPGA. 
+
+
+FSK Wireless Teletype
+EE 91 - Experimental Projects in Electronic Circuits (Prof. Barry Megdal)
+Fall 2009, Caltech
+
+Designed and built a low-power wireless transceiver for short text messages that operates on the 2-meter amateur band. Transmitter uses a fractional-N PLL for frequency synthesis and has an output power of +10 dBm at 144 MHz. Receiver consists of a heterodyne demodulator with a 10.7 MHz IF, limiting amplifier, and frequency discriminator. System has a usable bit-rate of 1 kbps (receiver limited). 
+
+
+Electronic Flight Information System
+EE/CS 53 - Microprocessor Project Laboratory (Glen George)
+Fall 2008, Caltech
+
+Designed and built a microcontroller system with a small sensor bank (two MEMS gyros, a three-axis accelerometer, and a two-axis magnetometer) for computing heading and attitude information on an aircraft. Also designed a display controller for a 480x272 pixel color LCD using a CPLD and a fast SRAM. Display is used to show attitude information (with a horizon line) and other relevant flight data. 
+
+
+
+
+Personal Interests and Hobbies
+
+Building and flying radio-controlled model aircraft (FPV fixed-wing and multi-rotor), Figure skating, Woodworking, Cello, Scuba diving (NAUI Master and Rescue diver certifications) 
